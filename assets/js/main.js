@@ -69,10 +69,10 @@ createGameBoard = () => {
         let html = `    <div class="item" onclick='itemClicked(this,${i})'>
                     <div class="inner">
                     <div class="back">
-                        <img src='/assets/image/${finalArray[i].imageName}.jpg' alt="">
+                        <img src='./assets/image/${finalArray[i].imageName}.jpg' alt="">
                     </div>
                     <div class="front">
-                        <img src="/assets/image/texture.jpg" alt="">
+                        <img src="./assets/image/texture.jpg" alt="">
                     </div>
                 </div>
             </div>`;
